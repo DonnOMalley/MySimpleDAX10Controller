@@ -1,0 +1,18 @@
+*******************************************************************
+* MySimpleDAX10Controller                                         
+* Version:  1.0                                                   
+* Author: Donn O'Malley                                           
+* Created: 2012                                                   
+* Last Revision: 1.0 (Initial Release)                            
+*                                                                 
+* Description:                                                   
+*   - Simple Android App that sends Web Requests(Hard Coded) to a 
+*	Custom Web to X10 Interface (DAX10Gateway) built on an	  
+*	Arduino with an Ethernet Shield connected to an X10	  
+*	Firecracker (cm17a). The rooms/commands are limited to a  
+*	Specific set for my home.				  
+*                                                                 
+* Notes:                                                          
+*   - Future: Add Bright/Dim Functionality, User Defined Lists and
+*	Command Options(On/Off/Bright/Dim/Email/other?)		  
+*******************************************************************
