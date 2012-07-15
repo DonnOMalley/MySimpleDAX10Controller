@@ -289,7 +289,8 @@ public class MySimpleDAX10ControllerActivity extends Activity
 				String RoomName = "B"; 
 				String UnitCode = "8"; 
 				String DigitalValue = "0"; 
-				URLToParse += RoomName + UnitCode + DigitalValue; 
+				URLToParse += RoomName + UnitCode + DigitalValue;
+				Toast.makeText(MySimpleDAX10ControllerActivity.this, "Sending Off Command with AsyncTask", Toast.LENGTH_LONG).show();
 				new SendDAX10Command().execute(URLToParse);
 			} 
 			catch (Exception e) { 
