@@ -1,6 +1,6 @@
 *******************************************************************
 * MySimpleDAX10Controller                                         
-* Version:  1.0                                                   
+* Version:  1.1                                                   
 * Author: Donn O'Malley                                           
 * Created: 2012                                                   
 * Last Revision: 1.0 (Initial Release)                            
@@ -15,4 +15,8 @@
 * Notes:                                                          
 *   - Future: Add Bright/Dim Functionality, User Defined Lists and
 *	Command Options(On/Off/Bright/Dim/Email/other?)		  
+*
+* Release Notes:
+*	- v1.1 DO
+*		- Synchronized with Eclipse and tested GIT Commit after warning cleanup
 *******************************************************************

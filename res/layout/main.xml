@@ -30,21 +30,21 @@
 								    android:layout_weight="1"
 								    android:gravity="right"
 								    android:text="Entry Way"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/entranceOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/entranceOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 	
@@ -63,21 +63,21 @@
 								    android:layout_weight="1"
 								    android:gravity="right"
 								    android:text="Living Room"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/livingRoomOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/livingRoomOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 
@@ -95,21 +95,21 @@
 									android:layout_weight="1"
 									android:layout_width="fill_parent"
 									android:layout_height="wrap_content"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/diningRoomOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/diningRoomOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 
@@ -127,21 +127,21 @@
 									android:layout_weight="1"
 									android:layout_width="fill_parent"
 									android:layout_height="wrap_content"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/kitchenOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/kitchenOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 
@@ -158,21 +158,21 @@
 									android:layout_weight="1"
 									android:layout_width="fill_parent"
 									android:layout_height="wrap_content"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/donnsOfficeOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/donnsOfficeOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 
@@ -189,21 +189,21 @@
 								    android:layout_weight="1"
 								    android:gravity="right"
 								    android:text="Office Camera"
-								    android:textSize="35px" />
+								    android:textSize="35dp" />
 
 								<Button 
 										android:id="@+id/officeCameraOnButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="ON" />
+										android:text="@string/on_text" />
 
 								<Button 
 										android:id="@+id/officeCameraOffButton" 
 										android:layout_width="fill_parent" 
 										android:layout_height="wrap_content" 
 										android:layout_weight="1"
-										android:text="OFF" />
+										android:text="@string/off_text" />
 
 						</LinearLayout>
 						
