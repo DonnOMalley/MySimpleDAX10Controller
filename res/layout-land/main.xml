@@ -20,7 +20,6 @@
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
 				        android:layout_weight="1"
-				        android:gravity="right"
 				        android:text="Entry Way"
 				        android:textSize="30dp" />
 
@@ -65,7 +64,6 @@
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
 				        android:layout_weight="1"
-				        android:gravity="right"
 				        android:text="Living Room"
 				        android:textSize="30dp" />
 
@@ -110,7 +108,6 @@
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
 				        android:layout_weight="1"
-				        android:gravity="right"
 				        android:text="Dining Room"
 				        android:textSize="30dp" />
 
@@ -155,7 +152,6 @@
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
 				        android:layout_weight="1"
-				        android:gravity="right"
 				        android:text="Kitchen"
 				        android:textSize="30dp" />
 
@@ -199,7 +195,6 @@
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
-				        android:gravity="right"
 				        android:text="Donn&apos;s Office"
 				        android:textSize="30dp" />
 
@@ -244,7 +239,6 @@
 				        android:layout_height="wrap_content"
 				        android:layout_gravity="center_horizontal"
 				        android:layout_weight="1"
-				        android:gravity="right"
 				        android:text="Office Camera"
 				        android:textSize="30dp" />
 

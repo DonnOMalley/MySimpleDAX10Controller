@@ -1,6 +1,6 @@
 *******************************************************************
 * MySimpleDAX10Controller                                         
-* Version:  1.2 (**ALPHA**)                                                   
+* Version:  1.3 (**ALPHA**)                                                   
 * Author: Donn O'Malley                                           
 * Created: 2012                                 
 *                                                                 
@@ -17,6 +17,10 @@
 *	Command Options(On/Off/Bright/Dim/Email/other?)		  
 *
 * Release Notes:
+*	- v1.3 DO 7/15/2012
+*		- Fixed layout positioning of label
+*		- Removed extra gravity configurations on textviews
+*
 *	- v1.2 DO 7/15/2012
 *		- Added Dim/Bright Buttons and Functionality
 *		- Added separate main.xml for landscape layouts
