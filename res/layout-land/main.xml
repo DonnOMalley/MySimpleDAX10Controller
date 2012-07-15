@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+		
+		<ScrollView 
+				android:id="@+id/scroll" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent">
+		
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+
+				    <TextView
+				        android:id="@+id/entranceLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:layout_weight="1"
+				        android:gravity="right"
+				        android:text="Entry Way"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/entranceOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/entranceOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/entranceDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/entranceBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				    <TextView
+				        android:id="@+id/livingRoomLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:layout_weight="1"
+				        android:gravity="right"
+				        android:text="Living Room"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/livingRoomOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/livingRoomOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/livingRoomDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/livingRoomBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				    <TextView
+				        android:id="@+id/diningRoomLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:layout_weight="1"
+				        android:gravity="right"
+				        android:text="Dining Room"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/diningRoomOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/diningRoomOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/diningRoomDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/diningRoomBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				    <TextView
+				        android:id="@+id/kitchenLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:layout_weight="1"
+				        android:gravity="right"
+				        android:text="Kitchen"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/kitchenOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/kitchenOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/kitchenDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/kitchenBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				    <TextView
+				        android:id="@+id/donnsOfficeLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:gravity="right"
+				        android:text="Donn&apos;s Office"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/donnsOfficeOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/donnsOfficeOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/donnsOfficeDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/donnsOfficeBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				    <TextView
+				        android:id="@+id/officeCameraLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_horizontal"
+				        android:layout_weight="1"
+				        android:gravity="right"
+				        android:text="Office Camera"
+				        android:textSize="30dp" />
+
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+
+				        <Button
+				            android:id="@+id/officeCameraOnButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/on_text" />
+
+				        <Button
+				            android:id="@+id/officeCameraOffButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/off_text" />
+
+				        <Button
+				            android:id="@+id/officeCameraDimButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/dim_text" />
+
+				        <Button
+				            android:id="@+id/officeCameraBrightButton"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1"
+				            android:text="@string/bright_text" />
+				    </LinearLayout>
+
+				</LinearLayout>
+				
+		</ScrollView>
+		
+</LinearLayout>

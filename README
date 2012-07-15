@@ -1,6 +1,6 @@
 *******************************************************************
 * MySimpleDAX10Controller                                         
-* Version:  1.1 (**ALPHA**)                                                   
+* Version:  1.2 (**ALPHA**)                                                   
 * Author: Donn O'Malley                                           
 * Created: 2012                                 
 *                                                                 
@@ -17,6 +17,10 @@
 *	Command Options(On/Off/Bright/Dim/Email/other?)		  
 *
 * Release Notes:
+*	- v1.2 DO 7/15/2012
+*		- Added Dim/Bright Buttons and Functionality
+*		- Added separate main.xml for landscape layouts
+*
 *	- v1.1 DO
 *		- Synchronized with Eclipse and tested GIT Commit after warning cleanup
 *******************************************************************

@@ -5,5 +5,7 @@
     <string name="app_name">MySimpleDAX10Controller</string>
     <string name="off_text">OFF</string>
     <string name="on_text">ON</string>
+    <string name="dim_text">DIM</string>
+    <string name="bright_text">BRIGHT</string>
 
 </resources>
